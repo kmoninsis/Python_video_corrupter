@@ -1,0 +1,17 @@
+MPEG - Moving Pictures Experts Group (initiated by the I.U. of U.N.)
+
+Macroblock - 4 8x8 blocks of Luminance data
+			 4 8x8 blocks of Chominance data
+
+
+Stored in receivers  frameBuffer
+
+Intraframe (first frame of sequence) at each avg 10-15 frames
+
+Predicted frame every 5th frame, with information from subsquent I-or-P frames
+
+In between is Bi-directional frame, coded by motion-compensated-prediction with information from the nearest I-or-P-frame
+
+MPEG4 pt 10
+H.264
+
